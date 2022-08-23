@@ -21,7 +21,7 @@ body {
   color: white;
   font-size: 30px;
 }
-a {
+.main-btn {
   text-decoration: none;
   background-image: linear-gradient(tomato, #ff4b2b);
   color: white;
@@ -129,4 +129,47 @@ input::placeholder {
   width: 30%;
   padding: 20px;
   border-radius: 5px;
+}
+
+.depend-donation {
+  display: flex;
+  text-align: justify;
+  margin-bottom: 400px;
+}
+
+.depend-donation h1 {
+  font-size: 50px;
+}
+.depend-donation p {
+  font-size: 20px;
+  color: gray;
+}
+
+.depend-donation img {
+  width: 80%;
+  height: 150%;
+  border-radius: 5px;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.need-survive {
+  display: flex;
+}
+.need-survive img {
+  width: 80%;
+  height: 150%;
+  border-radius: 5px;
+}
+
+.need-survive h1 {
+  font-size: 50px;
+}
+
+.need-survive p {
+  font-size: 20px;
+  color: gray;
 }
