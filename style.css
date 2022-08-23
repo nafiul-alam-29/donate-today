@@ -31,6 +31,7 @@ a {
 }
 .donate-today {
   text-align: center;
+  margin-bottom: 150px;
 }
 
 .donate-amount {
@@ -57,6 +58,7 @@ a {
 }
 #donate-p {
   font-size: 30px;
+  color: gray;
 }
 
 #other-amount {
@@ -80,4 +82,51 @@ input::placeholder {
 
 #donate-btn {
   margin-top: 50px;
+}
+
+.donate-plan {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.donate-plan h1 {
+  font-size: 50px;
+}
+.donate-plan p {
+  font-size: 30px;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: left;
+}
+
+.container h3 {
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+#container-1 {
+  background-color: rgb(195, 230, 242);
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
+}
+#container-2 {
+  background-color: lightpink;
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
+}
+#container-3 {
+  background-color: lightyellow;
+  width: 30%;
+  padding: 20px;
+  border-radius: 5px;
 }
