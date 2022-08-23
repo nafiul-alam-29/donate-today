@@ -158,6 +158,7 @@ input::placeholder {
 
 .need-survive {
   display: flex;
+  margin-bottom: 550px;
 }
 .need-survive img {
   width: 80%;
@@ -172,4 +173,55 @@ input::placeholder {
 .need-survive p {
   font-size: 20px;
   color: gray;
+}
+
+.update-part {
+  text-align: center;
+
+  margin-bottom: 250px;
+}
+
+.update-field {
+  background-color: lightyellow;
+  padding: 100px;
+  margin: 60px;
+  border-radius: 5px;
+  height: 100px;
+  align-items: center;
+}
+.update-part h1 {
+  font-size: 50px;
+}
+
+.update-part p {
+  font-size: 20px;
+  color: gray;
+}
+
+#email-input {
+  text-align: left;
+  width: 35%;
+  height: 50px;
+  font-size: 14pt;
+  border: none;
+  background-color: rgb(168, 168, 168);
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: black;
+  height: 200px;
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer h1 {
+  color: orangered;
+  font-size: 40px;
+}
+
+.footer h5 {
+  color: white;
+  font-size: 20px;
 }
