@@ -3,6 +3,10 @@ body {
   height: 100%;
   font-family: "Poppins", sans-serif;
 }
+
+.top-part {
+  margin-bottom: 150px;
+}
 .top-part-bg {
   padding: 10em;
   background-image: url("image/donation13.jpg");
@@ -11,7 +15,7 @@ body {
 }
 .top-part-bg h1 {
   color: white;
-  font-size: 70px;
+  font-size: 60px;
 }
 .top-part-bg p {
   color: white;
@@ -24,4 +28,56 @@ a {
   padding: 15px 25px;
   font-weight: 700;
   border-radius: 5px;
+}
+.donate-today {
+  text-align: center;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+.amount {
+  background-color: rgb(220, 217, 217);
+  padding: 10px 30px;
+}
+#highlight-amount {
+  background-color: rgb(245, 221, 224);
+  padding: 10px 30px;
+  border: 1px solid salmon;
+}
+#highlight-amount h1 {
+  color: orangered;
+}
+
+#donate {
+  font-size: 60px;
+}
+#donate-p {
+  font-size: 30px;
+}
+
+#other-amount {
+  margin-top: 40px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(220, 217, 217);
+}
+
+input,
+input::placeholder {
+  font: 20px/3 "Poppins";
+  text-align: center;
+}
+
+#donate-btn {
+  margin-top: 50px;
 }
